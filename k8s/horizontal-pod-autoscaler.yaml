@@ -3,7 +3,7 @@ kind: HorizontalPodAutoscaler
 metadata:
   name: simple-api
 spec:
-  maxReplicas: 2
+  maxReplicas: 3
   minReplicas: 1
   scaleTargetRef:
     apiVersion: apps/v1
